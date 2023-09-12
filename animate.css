@@ -1,0 +1,77 @@
+@keyframes slideinleft{
+  from{
+    transform: translateX(-20%);
+  }
+
+  to{
+    transform: translateX(0);
+  }
+}
+
+@keyframes fromtoptodown{
+  from{
+    transform: translateY(-20%);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes bounce{
+  from{
+    transform: translateY(-15%);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+}
+
+.aboutDiv-h1{
+  animation-name: slideinleft;
+  animation-duration: 2s;
+}
+.aboutDiv-par{
+  animation-name: slideinleft;
+  animation-duration: 2s;
+}
+.aboutDiv-button{
+  animation-name: slideinleft;
+  animation-duration: 2s;
+}
+.aboutDiv-searchBar{
+  animation-name: slideinleft;
+  animation-duration: 2s;
+}
+.aboutDiv-searchSubmit{
+  animation-name: slideinleft;
+  animation-duration: 2s;
+}
+
+
+.shawarma{
+  animation-name:fromtoptodown ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.burger{
+  animation-name:fromtoptodown ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.egusi{
+  animation-name:fromtoptodown ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.pasta{
+  animation-name:fromtoptodown ;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.downArrow{
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}

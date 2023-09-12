@@ -1,0 +1,123 @@
+@media screen and (max-width:846px){
+
+  .navBarPc{
+    display:none;
+  }
+
+  .aboutDiv-searchBar{
+    margin: auto;
+
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 4%;
+    font-family: 'Tilt Prism', cursive;
+  }
+  .aboutDiv-searchSubmit{
+    width: 100px;
+    height: 40px;
+    background-color: #2b9348;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 4%;
+    font-family: 'Tilt Prism', cursive;
+    
+  }
+
+  .aboutDiv-button{
+    background: none;
+    border: medium solid #007f5f;
+    width: 150px;
+    height: 50px;
+    color: #007f5f;
+    font-size: 20px;
+    font-family: 'Tilt Prism', cursive;
+  }
+  .moreVet{
+    background-color: #7bca9100;
+    color: #007f5f00;
+    width: 50px;
+    height: 50px;
+    float: right;
+    /* margin-right: 10%; */
+    overflow: hidden;
+    transition-duration: 2s;
+    /* margin-left: 80%; */
+  }
+  .moreVet:hover{
+    background-color: #2b9348ca;
+    color:#aacc00 ;
+    width:250px ;
+    height: 400px;
+    float: right;
+  }
+
+  .imgIcon{
+    width: 40px;
+    margin: auto;
+  }
+
+
+  .shawarma{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin: auto;
+    margin-top: 10%;
+    background: url('/pexels-dhani-ville-13292526.jpg')bottom no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+  }
+  .burger{
+    font-family: 'Tilt Prism', cursive;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin: auto;
+    margin-top: 10%;
+    background: url('/pexels-marcos-kohler-17178457.jpg')bottom no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+  }
+  .egusi{
+    font-family: 'Tilt Prism', cursive;
+    margin-left: 2%;
+    margin: auto;
+    margin-top: 10%;
+    background: url('/858db9330ae2c94a28a6a99fcd07f85c.jpg')bottom no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+  }
+  .pasta{
+    font-family: 'Tilt Prism', cursive;
+    margin-left: 2%;
+    margin: auto;
+    margin-top: 10%;
+    background: url('/20-Minute-Cajun-Chicken-Pasta_018.webp')bottom no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+  }
+  .formDiv{
+  /* background-color: #007f5f; */
+    width: 85%;
+    margin: auto;
+  }
+  .formDiv2{
+    width: 42%;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+}

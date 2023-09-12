@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star light</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/pc.css">
+  <link rel="stylesheet" href="/mobile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/animate.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="navBar navBarPc">
+    <i class="fa-solid fa-bowl-food icon display-inline-block"></i>
+    <h2 class="display-inline-block">STARLIGHT</h2>
+    <p class="display-inline-block home-navBar"><strong>HOME</strong></p>
+    <p class="display-inline-block"><strong>MENU</strong></p>
+    <p class="display-inline-block"><strong>TOP PICKS</strong></p>
+    <p class="display-inline-block"><strong>AFRICAN DISH</strong></p>
+    <!-- <button class="display-inline-block home-button"><strong>SIGN IN</strong></button>
+    <button class="display-inline-block home-button"><strong> SIGN UP</strong></button> -->
+  </div>
+  <div class="navBar navBarMobile">
+    <i class="fa-solid fa-bowl-food icon display-inline-block"></i>
+    <h2 class="display-inline-block">STARLIGHT</h2>
+    <div class="display-inline-block moreVet">
+      <img class="imgIcon" src="/001-list.png" alt="">
+      <h3>HOME</h3>
+      <h3>MENU</h3>
+      <h3>TOP PICKS</h3>
+      <h3>AFRICAN DISH</h3>
+    </div>
+
+  </div>
+  <div class="aboutDiv">
+    <h2 class="aboutDiv-h1">STARLIGHT <br> HERE TO BRIGHTEN UP YOUR WORLD</h2>
+    <p class="aboutDiv-par"><strong>Experience The World Through Food. <br> Great Taste Start Here.</strong></p>
+    <div class="formDiv2">    <button class="aboutDiv-button"><strong>SHOP NOW</strong></button></div>
+    <div class="formDiv">
+      <form action="">
+        <input class="aboutDiv-searchBar" type="search" placeholder="Search store..." >
+        <input class="aboutDiv-searchSubmit" type="submit" value="Search">
+      </form>
+    </div>
+  </div>
+  <h2 class="topPicks">TOP PICKS</h2>
+  <div class="line1"></div>
+
+  <div class="row">
+    <div class="shawarma display-inline-block col-md-3 col-lg-3">
+      <h2 class="shawarmah1">CHICKEN SHAWARMA</h2>
+ 
+        <p class="price display-inline-block"><i class="fa-solid fa-naira-sign">2000</i></p>
+
+        <button onclick="
+          cartQuantity += 2000
+          console.log(`shawarma : ${cartQuantity}`)
+          alert('ADDED TO CART!')
+        " class="display-inline-block shawarma-button">ADD TO CART</button>
+    </div>
+
+    <div class="burger display-inline-block col-md-3 col-lg-3">
+      <h2>BEEF BURGER</h2>
+      <p class="price display-inline-block"><i class="fa-solid fa-naira-sign">3500</i></p>
+
+      <button onclick="
+         cartQuantity += 3500
+         console.log(`burger : ${cartQuantity}`)
+         alert('ADDED TO CART!')
+      " class="display-inline-block shawarma-button">ADD TO CART</button>
+  </div>
+
+  <div class="egusi display-inline-block col-md-3 col-lg-3">
+    <h2>EGUSI SOUP</h2>
+    <p class="price display-inline-block"><i class="fa-solid fa-naira-sign">1500</i></p>
+
+    <button onclick="
+        cartQuantity += 1500
+         console.log(`EGUSI : ${cartQuantity}`)
+         alert('ADDED TO CART!')
+    " class="display-inline-block shawarma-button">ADD TO CART</button>
+</div>
+
+<div class="pasta display-inline-block col-md-3 col-lg-3">
+  <h2>PASTA</h2>
+  <p class="price display-inline-block"><i class="fa-solid fa-naira-sign">2500</i></p>
+
+  <button onclick="
+         cartQuantity += 2500
+         console.log(`PASTA : ${cartQuantity}`)
+         alert('ADDED TO CART!')
+  " class="display-inline-block shawarma-button">ADD TO CART</button>
+</div>
+
+
+  </div>
+  <div class="line2"></div>
+  <h2 class="topPicks">MENU</h2>
+  <div class="line2"></div>
+  <div>
+    <div class="menuOption " title="BURGER">
+      <h3 class="burgerMenu">BURGER MENU</h3>
+      <button class="burgerMenuButton">SEE MENU</button>
+    </div>
+    <div class="menuOptionRice  ">
+      <h3 class="burgerMenu">RICE MENU</h3>
+      <button class="burgerMenuButton ">SEE MENU</button>
+    </div>
+    <div class="menuOptionSoup ">
+      <h3 class="burgerMenu">SOUP MENU</h3>
+      <button class="burgerMenuButton">SEE MENU</button>
+    </div>
+    <div class="menuOptionPizza ">
+      <h3 class="burgerMenu">PIZZA MENU</h3>
+      <button class="burgerMenuButton">SEE MENU</button>
+    </div>
+    <div class="menuOptionSeeMore ">
+      <h3 class="burgerMenu">SEE MORE </h3>
+      <button class="burgerMenuButton">SEE MORE</button>
+    </div>
+
+  </div>
+  <div class="line2"></div>
+  <H2 class="h2tag">EXPLORE OUR AFRICAN DISHES</H2>
+  <div class="loveBounce">
+    <img class="downArrow " src="/down-arrow (1).png" alt="">
+  </div>
+  <div class="menuOptionafricand ">
+    <h3 class="burgerMenu">AFRICAN DISHES </h3>
+    <button class="burgerMenuButton">SEE MORE</button>
+  </div>
+  <div>
+    <h3 class="Inq">For More Inquires Contact Us On </h3>
+    <div class="loveBounce2">
+      <div class="display-inline-block"><img class="imgIcon2 " src="/instagram.png" alt=""> </div>
+      <div class="display-inline-block"><i class="fa-brands fa-square-whatsapp whatsapp"></i></div>
+    </div>
+    <p class="para"><img class="imgIcon3" src="/copyright.png" alt="">Copyright <img class="imgIcon2" src="/shopping.gif" alt=""> Easy shopping With Starlight</p>
+  </div>
+
+
+
+  <script>
+    let cartQuantity = 0
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+html , body{
+  background-color: #55a630;
+  width: 100%;
+  text-overflow: hidden;
+  height: 2000px;
+  font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+.icon{
+  font-size: 30px;
+  color: #aacc00;
+  margin: auto;
+
+}
+.navBar{
+  width: 100%;
+  height: 44px;
+  background-color: #2b9348;
+  font-family: 'Cormorant Garamond', serif;
+  position: fixed;
+
+}
+.display-inline-block{
+  display: inline-block;
+  margin: auto;
+  margin-left: 2%;
+  color: #aacc00;
+
+}
+.home-navBar{
+  margin-left: 40%;
+}
+.home-button{
+  height: 40px;
+  border: none;
+  background-color: #aacc00;
+  color: #2b9348;
+}
+
+.aboutDiv{
+  background: url('/pexels-kei-photo-2741458\ \(1\).jpg')  no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  font-family: 'Tilt Prism', cursive;
+
+
+}
+.aboutDiv-h1{
+  margin: auto;
+  text-align: center;
+  color: #007f5f;
+  font-size: 50px;
+  padding-top: 10%;
+}
+.aboutDiv-par{
+  text-align: center;
+  color: #007f5f;
+}
+.aboutDiv-button{
+  background: none;
+  border: medium solid #007f5f;
+  width: 150px;
+  height: 50px;
+  color: #007f5f;
+  font-size: 20px;
+  font-family: 'Tilt Prism', cursive;
+}
+.aboutDiv-searchBar{
+  margin: auto;
+  margin-left: 35%;
+  width: 20%;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 4%;
+  font-family: 'Tilt Prism', cursive;
+}
+.aboutDiv-searchSubmit{
+  width: 10%;
+  height: 40px;
+  background-color: #2b9348;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 4%;
+  font-family: 'Tilt Prism', cursive;
+  
+}
+.topPicks{
+  text-align: center;
+  color: #007f5f;
+}
+.line1{
+  background-color: #007f5f;
+  width: 100%;
+  height: 1px;
+}
+.line2{
+  margin-top: 3%;
+  background-color: #007f5f;
+  width: 100%;
+  height: 1px;
+}
+
+
+.shawarma{
+  font-family: 'Tilt Prism', cursive;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 10%;
+  background: url('/pexels-dhani-ville-13292526.jpg')bottom no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+}
+.price-holder{
+  background-color: #2b934872;
+  width: 100%;
+  height: 40px;
+}
+.price{
+  margin-left: 20%;
+  padding-top: 240px;
+  position: bottom;
+  color: #007f5f;
+}
+.shawarma-button{
+  background-color: #007f5f94;
+  font-size: 15px;
+  border: none;
+  width: 50%;
+  height: 40px;
+  font-family: 'Tilt Prism', cursive;
+  color: #aacc00;
+  border: medium solid #aacc00;
+}
+.shawarmah1{
+  font-size: 22px;
+  margin-top: 3%;
+}
+
+.burger{
+  font-family: 'Tilt Prism', cursive;
+  margin-top: 1%;
+  margin-left: 2%;
+  background: url('/pexels-marcos-kohler-17178457.jpg')bottom no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+}
+.egusi{
+  font-family: 'Tilt Prism', cursive;
+  margin-top: 1%;
+  margin-left: 2%;
+  background: url('/858db9330ae2c94a28a6a99fcd07f85c.jpg')bottom no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+}
+.pasta{
+  font-family: 'Tilt Prism', cursive;
+  margin-top: 1%;
+  margin-left: 2%;
+  background: url('/20-Minute-Cajun-Chicken-Pasta_018.webp')bottom no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+}
+
+
+.menuOption{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOption:hover{
+  color:#aacc0000;
+  background: url('R\ \(5\).jpg') center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+.burgerMenu{
+ text-align: center;
+}
+.burgerMenuButton{
+  background-color: #007f5fdd;
+  margin-top: 10%;
+  margin-left: 25%;
+  border: none;
+  width: 50%;
+  height: 40px;
+  font-family: 'Tilt Prism', cursive;
+  color: #aacc00;
+  border: medium solid #aacc00;
+}
+
+.menuOptionRice{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOptionRice:hover{
+  color:#aacc0000;
+  background: url('/OIP\ \(2\).jpg') center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+
+.menuOptionSoup{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOptionSoup:hover{
+  color:#aacc0000;
+  background: url('/OIP\ \(3\).jpg') center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+
+.menuOptionPizza{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOptionPizza:hover{
+  color:#aacc0000;
+  background: url('/pizza-stock.jpg') center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+
+.menuOptionSeeMore{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOptionSeeMore:hover{
+  color:#aacc0000;
+  background: url('/54-4.jpg') center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+.h2tag{
+  color: #007f5f;
+  text-align: center;
+}
+.loveBounce{
+  background-color: #aacc0000;
+  width: 50px;
+
+  margin: auto;
+}
+.loveBounce2{
+
+  width: 100px;
+  margin: auto;
+}
+.downArrow{
+  width: 60px;
+  color:#aacc00;
+
+}
+
+.menuOptionafricand{
+  font-family: 'Tilt Prism', cursive;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #fffffe;
+  width: 50%;
+  height: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+.menuOptionafricand:hover{
+  color:#aacc0000;
+  background: url('/R\ \(2\).png') center;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+.imgIcon2{
+  width: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+.imgIcon3{
+  width: 10px;
+  margin: auto;
+}
+.para{
+  text-align: center;
+  margin-top: 20%;
+}
+
+.Inq{
+  text-align: center;
+}
+.formDiv{
+  
+  width: 50%;
+  margin: auto;
+}
+.formDiv2{
+  width: 10%;
+  margin: auto;
+
+}
+.whatsapp{
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
